@@ -1,9 +1,7 @@
 #!/usr/bin/with-contenv bash
 
-umask 022
-
-cd /opt/NzbDrone || exit
+# cd /app/lidarr || exit
 
 exec \
-	s6-setuidgid abc mono --debug NzbDrone.exe \
+	s6-setuidgid abc mono --debug /app/lidarr/Lidarr.exe \
 	-nobrowser -data=/config
