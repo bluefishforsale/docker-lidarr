@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-SERVICE="sonarr"
+SERVICE="lidarr"
 IMAGE="bluefishforsale/lidarr"
 VERSION="latest"
 LOCALDIR="/data01/services/${SERVICE}"
