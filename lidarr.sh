@@ -4,7 +4,7 @@ SERVICE="lidarr"
 IMAGE="bluefishforsale/lidarr"
 VERSION="latest"
 LOCALDIR="/data01/services/${SERVICE}"
-DOWNLOADS="/data01/complete"
+DOWNLOADS="/data01/complete/music"
 
 docker stop ${SERVICE}
 docker rm ${SERVICE}
